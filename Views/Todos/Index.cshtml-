@@ -7,18 +7,15 @@
 <h2>Todos</h2>
 
 <p>
-    <!-- @Html.ActionLink("Create New", "Create") -->
-    @Html.ActionLink("新規作成", "Create")
+    @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
         <th>
-            <!-- @Html.DisplayNameFor(model => model.Description) -->
-            詳細
+            @Html.DisplayNameFor(model => model.Description)
         </th>
         <th>
-            <!-- @Html.DisplayNameFor(model => model.CreatedDate) -->
-            作成日時
+            @Html.DisplayNameFor(model => model.CreatedDate)
         </th>
         <th></th>
     </tr>
